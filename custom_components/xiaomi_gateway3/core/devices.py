@@ -1623,6 +1623,7 @@ DEVICES += [{
     ]
 }, {
     10987: ["Linptech", "Motion Sensor 2", "HS1BB", "linp.motion.hs1bb1"],
+    6284: ["Linptech", "Motion Sensor", "HS1BB", "linp.motion.hs1bb1"],    
     "spec": [
         # mibeacon2 spec
         ConstConv("motion", "binary_sensor", mi=18952, value=True),
